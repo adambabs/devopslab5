@@ -44,7 +44,7 @@
     - name: Add join cmd to dummy host
       add_host:
         name: "join_cmd_holder"
-        cmd: "{{ join_cmd.stdout }} }}"
+        cmd: "{{ join_cmd.stdout }}"
 
 
 
